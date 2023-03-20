@@ -71,13 +71,12 @@ Memo is an app that provides different flashcard sets to help users practice the
 ![Wireframe_Sketch](https://user-images.githubusercontent.com/22327307/226234496-7ca09b9c-80be-464d-9fb5-cb779abf3ca9.png)
 
 ### [BONUS] Digital Wireframes & Mockups
-<iframe src="https://drive.google.com/file/d/1lO15p6fqpU4P5BrmkTI1tDEYpHxYKAuZ/preview" width="640" height="480" allow="autoplay"></iframe>
-### [BONUS] Interactive Prototype
+![Wireframe_Digital](https://drive.google.com/uc?export=view&id=1lO15p6fqpU4P5BrmkTI1tDEYpHxYKAuZ)
 
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-<iframe src="https://drive.google.com/file/d/1v31hXW8Xq93CjY3-fPT4P3Mogg6MIq05/preview" width="640" height="480" allow="autoplay"></iframe>
+![Model](https://drive.google.com/uc?export=view&id=1v31hXW8Xq93CjY3-fPT4P3Mogg6MIq05)
 ### Networking
 - Log In Screen
     - Must make request to API to verify user credentials
