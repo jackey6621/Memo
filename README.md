@@ -1,1 +1,89 @@
+Original App Design Project - README Template
+===
+
 # Memo
+
+## Table of Contents
+1. [Overview](#Overview)
+1. [Product Spec](#Product-Spec)
+1. [Wireframes](#Wireframes)
+2. [Schema](#Schema)
+
+## Overview
+### Description
+Memo is an app that provides different flashcard sets to help users practice their skills.
+
+### App Evaluation
+
+- **Category: Education**
+- **Mobile: This is mainly developed for iPhones, but it does have the potential to be used by other devices as much of the user data is stored in our database.**
+- **Story: As students, we have all used quizlet to study for upcomming quiz and test. However, since quizlet is mainly webbased app, we determind that a ios based Memo app is needed.**
+- **Market: The app is directed towards students, as it is very useful for memorizing and studying course material.**
+- **Habit: Users do not have to use this app everyday, but the more they use it, the more they benefit from it.**
+- **Scope: This app has the potential to evolve into more educational features. For example, we could implement additional ways to use the flashcard material. It could also be distributed as a tool to classrooms, where teachers can see students' scores and use it to gauge their understanding of course content.**
+
+## Product Spec
+
+### 1. User Stories (Required and Optional)
+
+**Required Must-have Stories**
+
+* User can browse flashcard decks.
+* User can click on individual flashcards and view the term and description.
+* User can create an account.
+* User can log in to a created account.
+
+**Optional Nice-to-have Stories**
+
+* User can create their own flashcard deck and share it with others.
+* User can view and use others' flashcard decks.
+
+### 2. Screen Archetypes
+
+* Login Screen
+   * User can log in to a created account.
+* Sign-Up Screen
+    * User can create an account.
+* Flashcard Home Screen
+   * User can browse flashcard decks.
+   * [Optional] User can view and use others' flashcard decks.
+* Flashcard View Screen
+    * User can click on individual flashcards and view the term and description.
+
+### 3. Navigation
+
+**Tab Navigation** (Tab to Screen)
+
+* If Optional features are implemented:
+    * Flashcard Home Screen -- View only favorited/saved decks
+    * Flashcard Browsing Screen -- View all decks from others
+
+**Flow Navigation** (Screen to Screen)
+
+* Login Screen
+   => Flashcard Home Screen
+* Sign-Up Screen
+   => Flashcard Home Screen
+* Flashcard Home Screen
+    => Flashcard View Screen
+
+## Wireframes
+![Wireframe_Sketch](https://user-images.githubusercontent.com/22327307/226234496-7ca09b9c-80be-464d-9fb5-cb779abf3ca9.png)
+
+### [BONUS] Digital Wireframes & Mockups
+<iframe src="https://drive.google.com/file/d/1lO15p6fqpU4P5BrmkTI1tDEYpHxYKAuZ/preview" width="640" height="480" allow="autoplay"></iframe>
+### [BONUS] Interactive Prototype
+
+## Schema 
+[This section will be completed in Unit 9]
+### Models
+<iframe src="https://drive.google.com/file/d/1v31hXW8Xq93CjY3-fPT4P3Mogg6MIq05/preview" width="640" height="480" allow="autoplay"></iframe>
+### Networking
+- Log In Screen
+    - Must make request to API to verify user credentials
+- Sign Up Screen
+    - Must make request to API to initialize new account
+- Flashcard Home Screen
+    - Must make request to API to download names of flashcard sets
+- Flashcard View Screen
+    - Must make request to API to download flashcard data
