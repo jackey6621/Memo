@@ -40,12 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06AC24718C420AD37AACBE43 /* Pods-Memo-MemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memo-MemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Memo-MemoUITests/Pods-Memo-MemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		0B9C916A07DD3D31D73D4FC6 /* Pods-Memo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memo.debug.xcconfig"; path = "Target Support Files/Pods-Memo/Pods-Memo.debug.xcconfig"; sourceTree = "<group>"; };
-		3E49CF2BDFBC6A1C9E78F010 /* Pods-Memo-MemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memo-MemoUITests.release.xcconfig"; path = "Target Support Files/Pods-Memo-MemoUITests/Pods-Memo-MemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		4101B2CEDE1D01526260D411 /* Pods-Memo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memo.release.xcconfig"; path = "Target Support Files/Pods-Memo/Pods-Memo.release.xcconfig"; sourceTree = "<group>"; };
-		47FA9A2CEE676BD835E0B014 /* Pods-MemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoTests.debug.xcconfig"; path = "Target Support Files/Pods-MemoTests/Pods-MemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A864EE88CBAA1344FCAD83A /* Pods-Memo-MemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memo-MemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Memo-MemoUITests/Pods-Memo-MemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FB69FCB7212DAD8BE53F0A6 /* Pods-Memo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memo.release.xcconfig"; path = "Target Support Files/Pods-Memo/Pods-Memo.release.xcconfig"; sourceTree = "<group>"; };
+		7F8216A1A2D100FF257E77DE /* Pods-MemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoTests.debug.xcconfig"; path = "Target Support Files/Pods-MemoTests/Pods-MemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		88914D4CA0CC67A4A0CE8C3A /* Pods-Memo-MemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memo-MemoUITests.release.xcconfig"; path = "Target Support Files/Pods-Memo-MemoUITests/Pods-Memo-MemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8F011E2C8CF544353AF9BE6D /* Pods-Memo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memo.debug.xcconfig"; path = "Target Support Files/Pods-Memo/Pods-Memo.debug.xcconfig"; sourceTree = "<group>"; };
 		90CA5780BFA64414F11A9CBE /* Pods_Memo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Memo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C075436BC2CCE9038967B89C /* Pods-MemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoTests.release.xcconfig"; path = "Target Support Files/Pods-MemoTests/Pods-MemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		C6AACBA358D99534EEFD61AD /* Pods_Memo_MemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Memo_MemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0221D0B29C914F300C608FE /* Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0221D0E29C914F300C608FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,7 +62,6 @@
 		D0221D2F29C914F800C608FE /* MemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoUITests.swift; sourceTree = "<group>"; };
 		D0221D3129C914F800C608FE /* MemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E216F3F9C879822146460AFD /* Pods_MemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBE8383B4E94FB2228CA48EB /* Pods-MemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoTests.release.xcconfig"; path = "Target Support Files/Pods-MemoTests/Pods-MemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,19 +93,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		427FA0B3D03F2DA2F6521D51 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0B9C916A07DD3D31D73D4FC6 /* Pods-Memo.debug.xcconfig */,
-				4101B2CEDE1D01526260D411 /* Pods-Memo.release.xcconfig */,
-				06AC24718C420AD37AACBE43 /* Pods-Memo-MemoUITests.debug.xcconfig */,
-				3E49CF2BDFBC6A1C9E78F010 /* Pods-Memo-MemoUITests.release.xcconfig */,
-				47FA9A2CEE676BD835E0B014 /* Pods-MemoTests.debug.xcconfig */,
-				EBE8383B4E94FB2228CA48EB /* Pods-MemoTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		62AB3ED2D399432DAB1798B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,8 +110,8 @@
 				D0221D2429C914F800C608FE /* MemoTests */,
 				D0221D2E29C914F800C608FE /* MemoUITests */,
 				D0221D0C29C914F300C608FE /* Products */,
-				427FA0B3D03F2DA2F6521D51 /* Pods */,
 				62AB3ED2D399432DAB1798B1 /* Frameworks */,
+				E9479936E22963B119158AB4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,6 +154,20 @@
 				D0221D3129C914F800C608FE /* MemoUITestsLaunchTests.swift */,
 			);
 			path = MemoUITests;
+			sourceTree = "<group>";
+		};
+		E9479936E22963B119158AB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F011E2C8CF544353AF9BE6D /* Pods-Memo.debug.xcconfig */,
+				1FB69FCB7212DAD8BE53F0A6 /* Pods-Memo.release.xcconfig */,
+				0A864EE88CBAA1344FCAD83A /* Pods-Memo-MemoUITests.debug.xcconfig */,
+				88914D4CA0CC67A4A0CE8C3A /* Pods-Memo-MemoUITests.release.xcconfig */,
+				7F8216A1A2D100FF257E77DE /* Pods-MemoTests.debug.xcconfig */,
+				C075436BC2CCE9038967B89C /* Pods-MemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -588,7 +589,7 @@
 		};
 		D0221D3629C914F800C608FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B9C916A07DD3D31D73D4FC6 /* Pods-Memo.debug.xcconfig */;
+			baseConfigurationReference = 8F011E2C8CF544353AF9BE6D /* Pods-Memo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -620,7 +621,7 @@
 		};
 		D0221D3729C914F800C608FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4101B2CEDE1D01526260D411 /* Pods-Memo.release.xcconfig */;
+			baseConfigurationReference = 1FB69FCB7212DAD8BE53F0A6 /* Pods-Memo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -652,7 +653,7 @@
 		};
 		D0221D3929C914F800C608FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47FA9A2CEE676BD835E0B014 /* Pods-MemoTests.debug.xcconfig */;
+			baseConfigurationReference = 7F8216A1A2D100FF257E77DE /* Pods-MemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -672,7 +673,7 @@
 		};
 		D0221D3A29C914F800C608FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBE8383B4E94FB2228CA48EB /* Pods-MemoTests.release.xcconfig */;
+			baseConfigurationReference = C075436BC2CCE9038967B89C /* Pods-MemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -692,7 +693,7 @@
 		};
 		D0221D3C29C914F800C608FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06AC24718C420AD37AACBE43 /* Pods-Memo-MemoUITests.debug.xcconfig */;
+			baseConfigurationReference = 0A864EE88CBAA1344FCAD83A /* Pods-Memo-MemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -710,7 +711,7 @@
 		};
 		D0221D3D29C914F800C608FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E49CF2BDFBC6A1C9E78F010 /* Pods-Memo-MemoUITests.release.xcconfig */;
+			baseConfigurationReference = 88914D4CA0CC67A4A0CE8C3A /* Pods-Memo-MemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
