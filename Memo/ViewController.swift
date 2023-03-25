@@ -29,8 +29,8 @@ class ViewController: UIViewController {
     
     @IBAction func login(_ sender: Any) {
         // Retrieving the info from the text fields
-               let username = usernameText.text
-               let password = passwordText.text
+        let username = usernameText.text
+        let password = passwordText.text
                
                // Defining the user object
                PFUser.logInWithUsername(inBackground: username!, password: password!, block: {(user, error) -> Void in
@@ -39,7 +39,8 @@ class ViewController: UIViewController {
                        self.alert(message: errorString!, title: "Error")
                    }
                    else {
-                       self.alert(message: "Welcome back!", title: "Login")
+                       var user = User(username: username!, password: password!)
+                       self.performSegue(withIdentifier: "homeSegue", sender: user)
                    }
                })
     }
@@ -67,6 +68,15 @@ class ViewController: UIViewController {
                         self.alert(message: "Registered successfully", title: "Registering")
                     }
                 }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "homeSegue" {
+            let user = User(username: usernameText.text!, password: passwordText.text!)
+            guard let destinationViewController = segue.destination as? FlashcardsHomeTableViewController else {return }
+            destinationViewController.user = user
+        }
+        
     }
 }
 
