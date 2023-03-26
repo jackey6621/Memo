@@ -65,7 +65,7 @@ class ViewController: UIViewController {
                         self.alert(message: errorString!, title: "Error")
                         
                     } else {
-                        self.alert(message: "Registered successfully", title: "Registering")
+                        self.alert(message: "Registered successfully! Please login.", title: "Registering")
                     }
                 }
     }

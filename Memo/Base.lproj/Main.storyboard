@@ -96,26 +96,31 @@
         <scene sceneID="7Hb-w4-s02">
             <objects>
                 <tableViewController id="Kja-kg-0nV" customClass="DeckTableViewController" customModule="Memo" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="E81-TK-uic">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="E81-TK-uic">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FlashcardCell" id="6oX-Od-N8A" customClass="FlashcardCell" customModule="Memo" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                <rect key="frame" x="0.0" y="50" width="393" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6oX-Od-N8A" id="LCV-O7-tSE">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="80"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Term Goes Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2t-Bi-vVE">
-                                            <rect key="frame" x="134" y="11" width="124" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Term Goes Here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2t-Bi-vVE">
+                                            <rect key="frame" x="20" y="20" width="353" height="40"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="A2t-Bi-vVE" firstAttribute="leading" secondItem="LCV-O7-tSE" secondAttribute="leading" constant="20" id="2Kv-lA-N5z"/>
+                                        <constraint firstAttribute="trailing" secondItem="A2t-Bi-vVE" secondAttribute="trailing" constant="20" id="buf-Jb-G4X"/>
+                                        <constraint firstItem="A2t-Bi-vVE" firstAttribute="top" secondItem="LCV-O7-tSE" secondAttribute="top" constant="20" id="plS-4A-MJU"/>
+                                        <constraint firstAttribute="bottom" secondItem="A2t-Bi-vVE" secondAttribute="bottom" constant="20" id="qDQ-Wv-j9E"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="termDefinitionLabel" destination="A2t-Bi-vVE" id="9I0-Dq-Z9x"/>
@@ -131,7 +136,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7R4-dn-3XX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1515" y="842"/>
+            <point key="canvasLocation" x="1513.7404580152672" y="841.54929577464793"/>
         </scene>
         <!--Flashcards Home Table View Controller-->
         <scene sceneID="3At-o7-74Z">
@@ -142,7 +147,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Evo-yZ-bFL">
-                                <rect key="frame" x="-3" y="59" width="393" height="44"/>
+                                <rect key="frame" x="-3" y="59" width="392" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Home" id="y5a-yx-vj6"/>
@@ -168,27 +173,34 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DeckCell" id="bxz-5u-x3J" customClass="DeckCell" customModule="Memo" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="361" height="43.666667938232422"/>
+                                        <rect key="frame" x="0.0" y="50" width="361" height="42.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bxz-5u-x3J" id="UEy-Yc-kLG">
-                                            <rect key="frame" x="0.0" y="0.0" width="361" height="43.666667938232422"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="361" height="42.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name of Deck" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wdm-zf-4tX">
-                                                    <rect key="frame" x="20" y="11" width="108" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" misplaced="YES" text="Name of Deck" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wdm-zf-4tX">
+                                                    <rect key="frame" x="20" y="11" width="176" height="22"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="####" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xjF-8Q-6f2">
-                                                    <rect key="frame" x="299" y="11" width="42" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="####" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xjF-8Q-6f2">
+                                                    <rect key="frame" x="278" y="11.000000000000002" width="63" height="20.666666666666671"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="xjF-8Q-6f2" firstAttribute="top" secondItem="UEy-Yc-kLG" secondAttribute="topMargin" id="8Zk-7v-gco"/>
+                                                <constraint firstItem="xjF-8Q-6f2" firstAttribute="baseline" secondItem="Wdm-zf-4tX" secondAttribute="baseline" id="Aqs-Te-ZLU"/>
+                                                <constraint firstItem="xjF-8Q-6f2" firstAttribute="trailing" secondItem="UEy-Yc-kLG" secondAttribute="trailingMargin" id="CdV-NT-H6w"/>
+                                                <constraint firstItem="Wdm-zf-4tX" firstAttribute="leading" secondItem="UEy-Yc-kLG" secondAttribute="leading" constant="20" id="WTS-LF-O2T"/>
+                                                <constraint firstItem="xjF-8Q-6f2" firstAttribute="firstBaseline" secondItem="Wdm-zf-4tX" secondAttribute="firstBaseline" id="YkA-zU-5Ih"/>
+                                                <constraint firstItem="xjF-8Q-6f2" firstAttribute="centerY" secondItem="UEy-Yc-kLG" secondAttribute="centerY" id="fKQ-gj-4lk"/>
+                                                <constraint firstItem="xjF-8Q-6f2" firstAttribute="leading" secondItem="Wdm-zf-4tX" secondAttribute="trailing" constant="150" id="hOD-9I-ucv"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="countLabel" destination="xjF-8Q-6f2" id="pCa-bL-R4u"/>
