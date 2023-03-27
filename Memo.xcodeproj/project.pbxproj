@@ -55,9 +55,9 @@
 		8BA642F829CCCA0C008CA779 /* DeckTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckTableViewController.swift; sourceTree = "<group>"; };
 		8BA642F929CCCA0C008CA779 /* FlashcardsHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashcardsHomeTableViewController.swift; sourceTree = "<group>"; };
 		8BA6430129CCCDE8008CA779 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		8BAB8E3E29CCD67200194BD9 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
-		8BE0DB1B29CCDADF00332FFC /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
-		8BE0DB1D29CCE52600332FFC /* DeckCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckCell.swift; sourceTree = "<group>"; };
+		8BAB8E3E29CCD67200194BD9 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Flashcard.swift; path = ../../Documents/CS49000/Memo/Memo/HomePage/Flashcard.swift; sourceTree = "<group>"; };
+		8BE0DB1B29CCDADF00332FFC /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Deck.swift; path = ../../Documents/CS49000/Memo/Memo/HomePage/Deck.swift; sourceTree = "<group>"; };
+		8BE0DB1D29CCE52600332FFC /* DeckCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DeckCell.swift; path = ../../Documents/CS49000/Memo/Memo/HomePage/DeckCell.swift; sourceTree = "<group>"; };
 		8F011E2C8CF544353AF9BE6D /* Pods-Memo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memo.debug.xcconfig"; path = "Target Support Files/Pods-Memo/Pods-Memo.debug.xcconfig"; sourceTree = "<group>"; };
 		90CA5780BFA64414F11A9CBE /* Pods_Memo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Memo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C075436BC2CCE9038967B89C /* Pods-MemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoTests.release.xcconfig"; path = "Target Support Files/Pods-MemoTests/Pods-MemoTests.release.xcconfig"; sourceTree = "<group>"; };
