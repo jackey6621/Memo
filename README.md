@@ -1,5 +1,6 @@
 Original App Design Project - README Template
 ===
+Sprint 1 GIF: https://submissions.us-east-1.linodeobjects.com/ios102/-yMlvPZ6.gif
 
 # Memo
 
