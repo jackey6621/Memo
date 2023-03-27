@@ -13,6 +13,20 @@ Original App Design Project - README Template
 ### Description
 Memo is an app that provides different flashcard sets to help users practice their skills.
 
+
+## Initial Brainstorming Ideas
+When coming up with an idea for this project, our group was able to quickly come to an agreement on the type of app we wanted to make. We were interested in making something educational but simple to interact with.
+Some TOP ideas we came up with:
+1. An educational game -- perhaps something like a game that allows users to play a variety of card games to teach them logic and strategy. We did find that many apps of this type exist on the app store, and it may be difficult to implement more complex features like networking into this app.
+2. A typing practice app -- many programs/websites of this sort exist for computers, but apps to help people practice typing on their phones are not nearly as common. Again, we felt that this app might be too simple of a project to do.
+3. FINAL APP IDEA: A flashcards app -- this is what we ultimately decided on. It is true that other apps of this sort exist, but the complexity of such an app, combined with networking features, was a good fit for our goals and for the scope of the project we wanted to make.
+
+Other ideas:
+1. Social app to share interesting internet articles with friends
+2. More simple version of the flashcards app but catered to a smaller topic, like math or languages
+
+We ended up choosing to make a flashcards app, deciding on the name Memo.
+
 ### App Evaluation
 
 - **Category: Education**
@@ -37,6 +51,7 @@ Memo is an app that provides different flashcard sets to help users practice the
 
 * User can create their own flashcard deck and share it with others.
 * User can view and use others' flashcard decks.
+* User can add their own customizations to the app look, such as a customized background or color scheme
 
 ### 2. Screen Archetypes
 
