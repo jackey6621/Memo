@@ -128,8 +128,8 @@
 				8BE0DB1D29CCE52600332FFC /* DeckCell.swift */,
 			);
 			name = HomePage;
-			path = ../../../../Desktop/HomePage;
-			sourceTree = "<group>";
+			path = ../../../Desktop/HomePage;
+			sourceTree = SOURCE_ROOT;
 		};
 		D0221D0229C914F300C608FE = {
 			isa = PBXGroup;
