@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8BA642FC29CCCA0C008CA779 /* FlashcardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA642F729CCCA0C008CA779 /* FlashcardCell.swift */; };
-		8BA642FD29CCCA0C008CA779 /* DeckTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA642F829CCCA0C008CA779 /* DeckTableViewController.swift */; };
-		8BA642FE29CCCA0C008CA779 /* FlashcardsHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA642F929CCCA0C008CA779 /* FlashcardsHomeTableViewController.swift */; };
 		8BA6430229CCCDE8008CA779 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA6430129CCCDE8008CA779 /* User.swift */; };
 		8BAB8E3F29CCD67200194BD9 /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAB8E3E29CCD67200194BD9 /* Flashcard.swift */; };
+		8BD709DE29D250F100739B75 /* FlashcardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD709DD29D250F100739B75 /* FlashcardCell.swift */; };
+		8BD709E629D2510E00739B75 /* DeckTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD709E529D2510E00739B75 /* DeckTableViewController.swift */; };
+		8BD709E829D2511000739B75 /* FlashcardsHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD709E729D2511000739B75 /* FlashcardsHomeTableViewController.swift */; };
 		8BE0DB1C29CCDADF00332FFC /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE0DB1B29CCDADF00332FFC /* Deck.swift */; };
 		8BE0DB1E29CCE52600332FFC /* DeckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE0DB1D29CCE52600332FFC /* DeckCell.swift */; };
 		C9C25F4EF7E8F5446A6D52B4 /* Pods_MemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E216F3F9C879822146460AFD /* Pods_MemoTests.framework */; };
@@ -51,13 +51,13 @@
 		1FB69FCB7212DAD8BE53F0A6 /* Pods-Memo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memo.release.xcconfig"; path = "Target Support Files/Pods-Memo/Pods-Memo.release.xcconfig"; sourceTree = "<group>"; };
 		7F8216A1A2D100FF257E77DE /* Pods-MemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoTests.debug.xcconfig"; path = "Target Support Files/Pods-MemoTests/Pods-MemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		88914D4CA0CC67A4A0CE8C3A /* Pods-Memo-MemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memo-MemoUITests.release.xcconfig"; path = "Target Support Files/Pods-Memo-MemoUITests/Pods-Memo-MemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		8BA642F729CCCA0C008CA779 /* FlashcardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlashcardCell.swift; path = ../../../Desktop/HomePage/FlashcardCell.swift; sourceTree = SOURCE_ROOT; };
-		8BA642F829CCCA0C008CA779 /* DeckTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeckTableViewController.swift; path = ../../../Desktop/HomePage/DeckTableViewController.swift; sourceTree = SOURCE_ROOT; };
-		8BA642F929CCCA0C008CA779 /* FlashcardsHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlashcardsHomeTableViewController.swift; path = ../../../Desktop/HomePage/FlashcardsHomeTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		8BA6430129CCCDE8008CA779 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		8BAB8E3E29CCD67200194BD9 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Flashcard.swift; path = Memo/HomePage/Flashcard.swift; sourceTree = SOURCE_ROOT; };
-		8BE0DB1B29CCDADF00332FFC /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Deck.swift; path = Memo/HomePage/Deck.swift; sourceTree = SOURCE_ROOT; };
-		8BE0DB1D29CCE52600332FFC /* DeckCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DeckCell.swift; path = Memo/HomePage/DeckCell.swift; sourceTree = SOURCE_ROOT; };
+		8BAB8E3E29CCD67200194BD9 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Flashcard.swift; path = Memo/Flashcard.swift; sourceTree = SOURCE_ROOT; };
+		8BD709DD29D250F100739B75 /* FlashcardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardCell.swift; sourceTree = "<group>"; };
+		8BD709E529D2510E00739B75 /* DeckTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckTableViewController.swift; sourceTree = "<group>"; };
+		8BD709E729D2511000739B75 /* FlashcardsHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsHomeTableViewController.swift; sourceTree = "<group>"; };
+		8BE0DB1B29CCDADF00332FFC /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Deck.swift; path = Memo/Deck.swift; sourceTree = SOURCE_ROOT; };
+		8BE0DB1D29CCE52600332FFC /* DeckCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DeckCell.swift; path = Memo/DeckCell.swift; sourceTree = SOURCE_ROOT; };
 		8F011E2C8CF544353AF9BE6D /* Pods-Memo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memo.debug.xcconfig"; path = "Target Support Files/Pods-Memo/Pods-Memo.debug.xcconfig"; sourceTree = "<group>"; };
 		90CA5780BFA64414F11A9CBE /* Pods_Memo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Memo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C075436BC2CCE9038967B89C /* Pods-MemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoTests.release.xcconfig"; path = "Target Support Files/Pods-MemoTests/Pods-MemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,20 +117,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8BA642F629CCCA0C008CA779 /* HomePage */ = {
-			isa = PBXGroup;
-			children = (
-				8BA642F729CCCA0C008CA779 /* FlashcardCell.swift */,
-				8BA642F829CCCA0C008CA779 /* DeckTableViewController.swift */,
-				8BA642F929CCCA0C008CA779 /* FlashcardsHomeTableViewController.swift */,
-				8BAB8E3E29CCD67200194BD9 /* Flashcard.swift */,
-				8BE0DB1B29CCDADF00332FFC /* Deck.swift */,
-				8BE0DB1D29CCE52600332FFC /* DeckCell.swift */,
-			);
-			name = HomePage;
-			path = ../../../Desktop/HomePage;
-			sourceTree = SOURCE_ROOT;
-		};
 		D0221D0229C914F300C608FE = {
 			isa = PBXGroup;
 			children = (
@@ -158,7 +144,12 @@
 			children = (
 				D0221D0E29C914F300C608FE /* AppDelegate.swift */,
 				D0221D1029C914F300C608FE /* SceneDelegate.swift */,
-				8BA642F629CCCA0C008CA779 /* HomePage */,
+				8BD709DD29D250F100739B75 /* FlashcardCell.swift */,
+				8BD709E529D2510E00739B75 /* DeckTableViewController.swift */,
+				8BD709E729D2511000739B75 /* FlashcardsHomeTableViewController.swift */,
+				8BAB8E3E29CCD67200194BD9 /* Flashcard.swift */,
+				8BE0DB1B29CCDADF00332FFC /* Deck.swift */,
+				8BE0DB1D29CCE52600332FFC /* DeckCell.swift */,
 				D0221D1229C914F300C608FE /* ViewController.swift */,
 				8BA6430129CCCDE8008CA779 /* User.swift */,
 				D0221D1429C914F300C608FE /* Main.storyboard */,
@@ -446,14 +437,14 @@
 			files = (
 				D0221D1329C914F300C608FE /* ViewController.swift in Sources */,
 				8BE0DB1C29CCDADF00332FFC /* Deck.swift in Sources */,
+				8BD709DE29D250F100739B75 /* FlashcardCell.swift in Sources */,
 				D0221D0F29C914F300C608FE /* AppDelegate.swift in Sources */,
-				8BA642FC29CCCA0C008CA779 /* FlashcardCell.swift in Sources */,
 				8BA6430229CCCDE8008CA779 /* User.swift in Sources */,
-				8BA642FE29CCCA0C008CA779 /* FlashcardsHomeTableViewController.swift in Sources */,
+				8BD709E629D2510E00739B75 /* DeckTableViewController.swift in Sources */,
 				8BAB8E3F29CCD67200194BD9 /* Flashcard.swift in Sources */,
 				8BE0DB1E29CCE52600332FFC /* DeckCell.swift in Sources */,
 				D0221D1129C914F300C608FE /* SceneDelegate.swift in Sources */,
-				8BA642FD29CCCA0C008CA779 /* DeckTableViewController.swift in Sources */,
+				8BD709E829D2511000739B75 /* FlashcardsHomeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
