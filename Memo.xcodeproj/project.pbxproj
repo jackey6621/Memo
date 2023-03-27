@@ -10,7 +10,6 @@
 		8BA642FC29CCCA0C008CA779 /* FlashcardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA642F729CCCA0C008CA779 /* FlashcardCell.swift */; };
 		8BA642FD29CCCA0C008CA779 /* DeckTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA642F829CCCA0C008CA779 /* DeckTableViewController.swift */; };
 		8BA642FE29CCCA0C008CA779 /* FlashcardsHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA642F929CCCA0C008CA779 /* FlashcardsHomeTableViewController.swift */; };
-		8BA6430029CCCA0C008CA779 /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA642FB29CCCA0C008CA779 /* HomeScreen.storyboard */; };
 		8BA6430229CCCDE8008CA779 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA6430129CCCDE8008CA779 /* User.swift */; };
 		8BAB8E3F29CCD67200194BD9 /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAB8E3E29CCD67200194BD9 /* Flashcard.swift */; };
 		8BE0DB1C29CCDADF00332FFC /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE0DB1B29CCDADF00332FFC /* Deck.swift */; };
@@ -55,7 +54,6 @@
 		8BA642F729CCCA0C008CA779 /* FlashcardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashcardCell.swift; sourceTree = "<group>"; };
 		8BA642F829CCCA0C008CA779 /* DeckTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckTableViewController.swift; sourceTree = "<group>"; };
 		8BA642F929CCCA0C008CA779 /* FlashcardsHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashcardsHomeTableViewController.swift; sourceTree = "<group>"; };
-		8BA642FB29CCCA0C008CA779 /* HomeScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
 		8BA6430129CCCDE8008CA779 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8BAB8E3E29CCD67200194BD9 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
 		8BE0DB1B29CCDADF00332FFC /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
@@ -125,7 +123,6 @@
 				8BA642F729CCCA0C008CA779 /* FlashcardCell.swift */,
 				8BA642F829CCCA0C008CA779 /* DeckTableViewController.swift */,
 				8BA642F929CCCA0C008CA779 /* FlashcardsHomeTableViewController.swift */,
-				8BA642FB29CCCA0C008CA779 /* HomeScreen.storyboard */,
 				8BAB8E3E29CCD67200194BD9 /* Flashcard.swift */,
 				8BE0DB1B29CCDADF00332FFC /* Deck.swift */,
 				8BE0DB1D29CCE52600332FFC /* DeckCell.swift */,
@@ -318,7 +315,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0221D1B29C914F700C608FE /* LaunchScreen.storyboard in Resources */,
-				8BA6430029CCCA0C008CA779 /* HomeScreen.storyboard in Resources */,
 				D0221D1829C914F700C608FE /* Assets.xcassets in Resources */,
 				D0221D1629C914F300C608FE /* Main.storyboard in Resources */,
 			);
