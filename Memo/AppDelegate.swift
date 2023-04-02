@@ -7,6 +7,7 @@
 
 import UIKit
 import Parse
+import ParseSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,6 +22,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             $0.server = "https://parseapi.back4app.com"
         }
         Parse.initialize(with: configuration)
+        
+        ParseSwift.initialize(applicationId: "vMcEtS3P7wOzr17Am8gazdB7aYd4IXIYb0nz2bLy",
+                              clientKey: "NlN9mwRT0ulbcIwKpVqspJsmtr8aQHgbVGPzNXEM",
+                              serverURL: URL(string: "https://parseapi.back4app.com")!)
 
         return true
     }

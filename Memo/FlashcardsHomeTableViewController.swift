@@ -83,6 +83,13 @@ class FlashcardsHomeTableViewController: UIViewController, UITableViewDelegate {
         }
     }
     
+    private var flashcard = [Flashcard]() {
+        didSet {
+            // Reload table view data any time the posts variable gets updated.
+            tableView.reloadData()
+        }
+    }
+    
     var user = User(username: "", password: "")
     
     override func viewDidLoad() {
@@ -102,19 +109,50 @@ class FlashcardsHomeTableViewController: UIViewController, UITableViewDelegate {
          */
         
     }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
 
+        queryPosts()
+    }
+
+//    private func queryPosts(completion: (() -> Void)? = nil) {
+//        // https://github.com/parse-community/Parse-Swift/blob/3d4bb13acd7496a49b259e541928ad493219d363/ParseSwift.playground/Pages/2%20-%20Finding%20Objects.xcplaygroundpage/Contents.swift#L66
+//
+//
+//        let query = Deck.query()
+//            .include("deckTitle")
+//            .include("flashcards")
+//
+//            .limit(10) // <- Limit max number of returned posts to 10
+//        let results = try! query.find()
+//        print(results)
+//
+//    }
+    
     private func queryPosts(completion: (() -> Void)? = nil) {
         // https://github.com/parse-community/Parse-Swift/blob/3d4bb13acd7496a49b259e541928ad493219d363/ParseSwift.playground/Pages/2%20-%20Finding%20Objects.xcplaygroundpage/Contents.swift#L66
 
         
-        let query = Deck.query()
-            .include("deckTitle")
-            .include("flashcards")
+        let query = Flashcard.query()
+            .include("flashcardTerm")
 
-            .limit(10) // <- Limit max number of returned posts to 10
-        let results = try! query.find()
-        print(results)
+        query.find { [weak self] result in
+            switch result {
+            case .success(let flashcard):
+                // Update local posts property with fetched posts
+                self?.flashcard = flashcard
+                print(flashcard)
+            case .failure(let error):
+                self?.showAlert(description: error.localizedDescription)
+            }
+        }
         
+    }
+    private func showAlert(description: String? = nil) {
+        let alertController = UIAlertController(title: "Oops...", message: "\(description ?? "Please try again...")", preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .default)
+        alertController.addAction(action)
+        present(alertController, animated: true)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -125,7 +163,8 @@ class FlashcardsHomeTableViewController: UIViewController, UITableViewDelegate {
            let deckViewController = segue.destination as? DeckTableViewController {
             let selectedDeck = decks[selectedDeckPath.row]
             deckViewController.title = selectedDeck.deckTitle
-            deckViewController.flashcards = selectedDeck.flashcards!
+            //deckViewController.flashcards = selectedDeck.flashcards!
+            deckViewController.flashcards = flashcard
 
         }
     }
