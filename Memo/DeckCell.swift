@@ -9,7 +9,6 @@ import UIKit
 
 class DeckCell: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var countLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -26,9 +25,6 @@ class DeckCell: UITableViewCell {
             titleLabel.text = deckTitle
         }
         
-        if let cards = deck.flashcards {
-            countLabel.text = String(cards.count)
-        }
         print("I have been configured")
         
     }

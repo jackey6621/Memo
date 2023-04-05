@@ -184,7 +184,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Evo-yZ-bFL">
-                                <rect key="frame" x="-3" y="58" width="391" height="44"/>
+                                <rect key="frame" x="-4" y="58" width="391" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Home" id="y5a-yx-vj6"/>
@@ -230,7 +230,7 @@
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="yO2-yv-SRT">
-                                                            <rect key="frame" x="20" y="11" width="321" height="22"/>
+                                                            <rect key="frame" x="20" y="11" width="258" height="22"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Name of Deck" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wdm-zf-4tX">
                                                                     <rect key="frame" x="0.0" y="0.0" width="258" height="22"/>
@@ -242,21 +242,11 @@
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="####" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xjF-8Q-6f2">
-                                                                    <rect key="frame" x="277" y="0.0" width="44" height="22"/>
-                                                                    <constraints>
-                                                                        <constraint firstAttribute="width" constant="44" id="BAs-rn-EUl"/>
-                                                                    </constraints>
-                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                    <nil key="textColor"/>
-                                                                    <nil key="highlightedColor"/>
-                                                                </label>
                                                             </subviews>
                                                         </stackView>
                                                     </subviews>
                                                 </tableViewCellContentView>
                                                 <connections>
-                                                    <outlet property="countLabel" destination="xjF-8Q-6f2" id="pCa-bL-R4u"/>
                                                     <outlet property="titleLabel" destination="Wdm-zf-4tX" id="5Ed-Gv-bJ1"/>
                                                 </connections>
                                             </tableViewCell>
@@ -276,7 +266,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="i3U-0m-ueo"/>
                     <connections>
-                        <outlet property="tableView" destination="os9-Gt-fN9" id="PgU-ea-mzF"/>
+                        <outlet property="tableView" destination="os9-Gt-fN9" id="q5x-k0-y8A"/>
                         <outlet property="welcomeLabel" destination="8ZX-XS-oKn" id="u2Q-20-paB"/>
                         <segue destination="Kja-kg-0nV" kind="show" identifier="viewDeckSegue" id="l1h-Vk-z3e"/>
                     </connections>

@@ -69,12 +69,14 @@ class ViewController: UIViewController {
                     }
                 }
     }
-    
+  
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "homeSegue" {
+            
             let user = User(username: usernameText.text!, password: passwordText.text!)
             guard let destinationViewController = segue.destination as? FlashcardsHomeTableViewController else {return }
             destinationViewController.user = user
+           
         }
         
     }

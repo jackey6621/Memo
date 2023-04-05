@@ -17,4 +17,5 @@ struct Flashcard: ParseObject {
     
     var flashcardTerm:String?
     var flashcardDefinition:String?
+    var deck:String?
 }
