@@ -25,7 +25,5 @@ class DeckCell: UITableViewCell {
             titleLabel.text = deckTitle
         }
         
-        print("I have been configured")
-        
     }
 }

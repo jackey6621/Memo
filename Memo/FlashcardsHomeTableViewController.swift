@@ -16,7 +16,10 @@ class FlashcardsHomeTableViewController: UIViewController, UITableViewDelegate {
     var decks = [Deck](
         arrayLiteral: Deck(deckTitle: "spanish", flashcards: []),
         Deck(deckTitle: "capital",
-             flashcards: [])
+             flashcards: []),
+        Deck(deckTitle:"Latin Roots", flashcards:[]),
+        Deck(deckTitle:"Physics - Thermodynamics", flashcards: []),
+        Deck(deckTitle: "German Vocabulary", flashcards: [])
     ) {
         didSet {
             // Reload table view data any time the posts variable gets updated.
@@ -40,12 +43,12 @@ class FlashcardsHomeTableViewController: UIViewController, UITableViewDelegate {
         tableView.dataSource = self
         tableView.reloadData()
         
-        print(decks)
-        /*
+        
+        
         for i in  0...(decks.count - 1) {
             decks[i].flashcards = []
         }
-         */
+         
         
         /*
         do {
@@ -59,6 +62,10 @@ class FlashcardsHomeTableViewController: UIViewController, UITableViewDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         queryPosts()
+        if let indexPath = tableView.indexPathForSelectedRow {
+            tableView.deselectRow(at: indexPath, animated: true)
+        }
+        
         
 
     }
@@ -89,12 +96,15 @@ class FlashcardsHomeTableViewController: UIViewController, UITableViewDelegate {
             case .success(let flashcard):
                 // Update local posts property with fetched posts
                 self?.flashcard = flashcard
-                print(flashcard)
+                
             case .failure(let error):
                 self?.showAlert(description: error.localizedDescription)
             }
         }
         for i in 0...(decks.count - 1) {
+            if decks[i].flashcards != [] {
+                continue
+            }
             for card in flashcard {
                 if (card.deck == decks[i].deckTitle) {
                     decks[i].flashcards?.append(card)
@@ -129,13 +139,13 @@ class FlashcardsHomeTableViewController: UIViewController, UITableViewDelegate {
             }
              */
             deckViewController.flashcards = selectedDeck.flashcards!
-            print(selectedDeck)
+            
 
         }
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Got clicked")
+        
         performSegue(withIdentifier: "viewDeckSegue", sender: indexPath)
     }
 
