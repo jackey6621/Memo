@@ -102,3 +102,6 @@ We ended up choosing to make a flashcards app, deciding on the name Memo.
     - Must make request to API to download names of flashcard sets
 - Flashcard View Screen
     - Must make request to API to download flashcard data
+ 
+### Demo
+![Kapture 2023-04-10 at 02 15 37](https://user-images.githubusercontent.com/22327307/230839757-3dbadace-a574-4915-9496-92e17c25a9ab.gif)
